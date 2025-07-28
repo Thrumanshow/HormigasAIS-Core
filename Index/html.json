@@ -1,5 +1,4 @@
-[
-  {
+{
     "fragment": "disablePicker",
     "id": "AAAAAAAAAAAXEXRUU",
     "context": "ui/overlay/picker"
@@ -15,4 +14,4 @@
     "context": "core/kernel",
     "note": "problematic fragment, excluded in safe mode"
   }
-    ]
+
