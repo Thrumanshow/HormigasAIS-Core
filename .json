@@ -1,0 +1,19 @@
+Salida
+[
+  {
+    "fragment": "disablePicker",
+    "id": "AAAAAAAAAAAXEXRUU",
+    "context": "ui/overlay/picker"
+  },
+  {
+    "fragment": "enableLogger",
+    "id": "QQAAAAAAAAC3RA",
+    "context": "system/logging"
+  },
+  {
+    "fragment": "patchNucleus",
+    "id": "1&ref=sl_ph",
+    "context": "core/kernel",
+    "note": "problematic fragment, excluded in safe mode"
+  }
+]
