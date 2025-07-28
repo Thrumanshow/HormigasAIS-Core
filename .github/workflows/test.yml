@@ -1,4 +1,4 @@
-name:  Test.yml
+name:  Test.lenpt
 on: [push, pull_request]
 
 jobs:
