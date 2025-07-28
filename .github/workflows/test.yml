@@ -1,4 +1,4 @@
-name: Test Parser
+name:  Test.yml
 on: [push, pull_request]
 
 jobs:
