@@ -11,3 +11,27 @@ Este repositorio define una colección inicial de parches (`.lenpt`) que contien
 ---
 
 ## 🌐 Estructura del Proyecto
+
+/lenpt
+└── base.lenpt         
+lenpt-parser/
+├── parser/
+│   ├── __init__.py
+│   └── lenpt_parser.py      
+├── tests/
+│   └── test_parser.py      
+├── LICENSE                 
+├── pyproject.toml          
+└── README.md               
+
+---
+
+## MIT License 
+
+Copyright (c) 2025 Cristhiam Quiñonez
+
+---
+
+```Bash
+python lenpt-parser/parser/lenpt_parser.py lenpt/base.lenpt
+```
