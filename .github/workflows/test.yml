@@ -1,4 +1,4 @@
-name:  Test.lenpt
+name:  Test_parser.py 
 on: [push, pull_request]
 
 jobs:
