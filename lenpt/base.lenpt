@@ -1,0 +1,22 @@
+// ===============================================
+// Archivo base del lenguaje .lenpt
+// Proyecto: HormigasAIS | Lenguaje Experimental
+// Descripción: Punto de inicio para flujos de automatización e integración inteligente
+// Autor: Cristhiam Quiñonez
+// Licencia: MIT (ver archivo LICENSE)
+// =============================================== 
+
+// Este archivo define la raíz simbólica de la extensión .lenpt
+// Aquí se establecerán futuras estructuras, operadores y flujos
+// en el contexto de automatización inteligente distribuida. 
+
+// Ejemplo de declaración simbólica (a definir en compilador):
+lenpt_init("HormigasAIS-Core") 
+
+// Placeholder para futuras reglas de parsing
+define_ruleset core_rules:
+    - allow chained_flow
+    - extend with AI_nodes
+    - auto_bind integrations 
+
+// Fin de archivo base.lenpt
