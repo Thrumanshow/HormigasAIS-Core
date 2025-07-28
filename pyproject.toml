@@ -1,0 +1,13 @@
+### 🛠 pyproject.toml 
+
+```toml
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta" 
+
+[project]
+name = "lenpt-parser"
+version = "0.1.0"
+description = "Convierte archivos .lenpt a .json y .yaml"
+authors = [{ name="HormigasAIS" }]
+dependencies = ["pyyaml"]
