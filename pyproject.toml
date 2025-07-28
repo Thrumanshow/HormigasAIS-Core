@@ -1,13 +1,27 @@
-### 🛠 pyproject.toml 
-
-```toml
-[build-system]
-requires = ["setuptools>=42"]
-build-backend = "setuptools.build_meta" 
-
 [project]
-name = "lenpt-parser"
+name = "lenpt-core-patch"
 version = "0.1.0"
-description = "Convierte archivos .lenpt a .json y .yaml"
-authors = [{ name="HormigasAIS" }]
-dependencies = ["pyyaml"]
+description = "Fragmentos simbólicos reutilizables para LenPT: flags, checksums, codificación y slicing semántico."
+authors = [
+    { name="Cristhiam Quiñonez", email="chrisquionez354@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8" 
+
+[tool.setuptools]
+packages = ["lenpt_core"] 
+
+[tool.setuptools.package-data]
+"lenpt_core" = ["*.lenpt", "*.json"] 
+
+[project.urls]
+"Repositorio" = "https://github.com/HormigasAIS/lenpt-core-patch"
+"Documentación" = "https://github.com/HormigasAIS/lenpt-core-patch/docs" 
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests"
+]
