@@ -1,0 +1,18 @@
+# lenpt-parser 
+
+Una utilidad de línea de comandos para convertir archivos `.lenpt` a `.json` y `.yaml`. 
+
+## Uso 
+
+```bash
+lenpt-parser archivo.lenpt --json salida.json --yaml salida.yaml 
+
+
+
+pip install -e . 
+
+
+
+disablePicker: true
+Token: AAAAAAAAAAAXEXRUU
+Checksum: QQAAAAAAAAC3RA
